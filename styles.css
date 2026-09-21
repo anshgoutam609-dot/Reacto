@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #09090b;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  max-width: 720px;
+  margin: auto;
+  padding: 24px;
+}
+
+.hero {
+  padding: 48px 8px 28px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 7px 12px;
+  border: 1px solid #333;
+  border-radius: 999px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 38px;
+  margin: 22px 0 10px;
+}
+
+p {
+  color: #a1a1aa;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.card {
+  background: #151518;
+  border: 1px solid #29292f;
+  border-radius: 20px;
+  padding: 22px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border: 0;
+  border-radius: 12px;
+  background: white;
+  color: #09090b;
+  font-weight: 700;
+  font-size: 16px;
+}
